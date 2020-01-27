@@ -6,7 +6,7 @@ public class ShoeStock {
 	public boolean isInStockAndHaveSize(Shoes brand, Shoes size) {
 		if ((brand.getBrand().equals("skechers")) || (brand.getBrand().equals("crocs")) || (brand.getBrand().equals("llbean"))) {
 			if ((size.getSize() >= 8) && (size.getSize() <= 12)) {
-				System.out.println("Brand is avalable in that in Size.");
+				System.out.println("Brand is avalable in that Size.");
 				return true;
 			} else {
 				System.out.println("Brand is avalable but not in that Size.");
