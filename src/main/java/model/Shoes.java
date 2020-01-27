@@ -16,6 +16,12 @@ public class Shoes {
 		super();
 		this.brand = brand;
 	}
+	
+	public Shoes(String brand, double size) {
+		super();
+		this.brand = brand;
+		this.size = size;
+	}
 
 	//setters/getters
 	public String getBrand() {
